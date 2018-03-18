@@ -1,0 +1,28 @@
+
+HTML
+ - crystals collector
+ - how to play
+ - goal number
+ - player score
+ - wins
+ - losses
+ - win/lose message
+ - buttons with crystal images
+ - your score this round
+
+
+EACH GAME
+ - generate random goal number: 19-120
+ - generate random number for each crystal: 1-12
+ - player score = total of crystal values clicked
+ - win if player score = goal number
+ - lose if player score > random goal number
+ - auto restart game after win or lose
+ - wins and losses keep logging
+
+
+OTHER NOTES:
+ - crystal value hidden
+ - display each crystal image as button
+ - click on crystal adds that value to player score
+

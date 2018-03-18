@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body >
+    <div id="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Crystal Collector</h1>
+            </div>
+        </div>
+        <div class="row mt-3 mb-3">
+            <div class="col-12">
+                <button class="collapsible" style="font-style: italic"> Read how to play...</button>
+                <div class="content">
+                    <p>
+                        At the start of each game a random "goal" will be displayed. A random value will also be created for each crystal, but not displayed. Clicking on a crystal will add its (undisclosed) value to your score - simple math will help you determine each crystal's value. Your objective is to accumulate a score = the goal number. Match the goal or lose the game!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3 mt-3">
+            <div class="col-2 ml-5">
+                <h5>Goal: </h5>
+            </div>
+            <div class="col-4 pl-0">
+                <h4 id="goal"></h4>
+            </div>
+
+            <div class="col-2 ml-2">
+                <h5>Wins: </h5>
+            </div>
+            <div class="col-2 pl-0">
+                <h4 id="wins"></h4>
+            </div>
+        </div>                
+        <div class="row mb-5 mt-0">
+            <div class="col-2 ml-5">
+                <h5>Score: </h5>
+            </div>
+            <div class="col-4 pl-0">
+                <h4 id="score"></h4>
+            </div>
+
+            <div class="col-2 ml-2">
+                <h5>Losses: </h5>
+            </div>
+            <div class="col-2 pl-0">
+                <h4 id="losses"></h4>
+            </div>
+        <div class="row mb-3 mt-3">
+            <div class="col-12 ml-5">
+                <h2 id="message"></h2>
+            </div>
+        </div>
+        </div>
+        <div class="row mt-5 mb-4">
+            <div class="col-3">
+                <img id="diamond" src="assets/images/diamond-real_150.png">
+            </div>
+            <div class="col-3">
+                <img id="sapphire" src="assets/images/sapphire-real_150.png">
+            </div>
+            <div class="col-3">
+                <img id="emerald" src="assets/images/emerald-real_150.png">
+            </div>
+            <div class="col-3">
+                <img id="ruby" src="assets/images/ruby-real_150.png">
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js">
+    </script>
+</body>
+</html>

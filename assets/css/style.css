@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(91, 168, 231);
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(0, 175, 44);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* #goal {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} */
+
+#container  {
+    width: 70vw;
+    margin-top: 3rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 1.25rem 2rem 1.25rem 2rem;
+    background-color: rgb(247, 247, 247)
+}
+
+.collapsible {
+    background-color: rgb(241, 241, 241);
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+}
+
+.active, .collapsible:hover {
+    background-color: rgba(0, 175, 58, 0.596);
+
+}
+
+.content {
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    display: none;
+    overflow: hidden;
+    background-color: #e7e3e3;
+    font-size: 1rem;
+}

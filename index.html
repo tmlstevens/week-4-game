@@ -19,7 +19,7 @@
         </div>
         <div class="row mt-3 mb-3">
             <div class="col-12">
-                <button class="collapsible" style="font-style: italic"> Read how to play...</button>
+                <button class="collapsible" style="font-style: italic"> Learn how to play...</button>
                 <div class="content">
                     <p>
                         At the start of each game a random "goal" will be displayed. A random value will also be created for each crystal, but not displayed. Clicking on a crystal will add its (undisclosed) value to your score - simple math will help you determine each crystal's value. Your objective is to accumulate a score = the goal number. Match the goal or lose the game!
@@ -64,19 +64,31 @@
         </div>
         <div class="row mt-5 mb-4">
             <div class="col-3">
-                <img id="diamond" src="assets/images/diamond-real_150.png">
+                <img class="crystal" id="diamond" src="assets/images/diamond-real_150.png">
             </div>
             <div class="col-3">
-                <img id="sapphire" src="assets/images/sapphire-real_150.png">
+                <img class="crystal" id="sapphire" src="assets/images/sapphire-real_150.png">
             </div>
             <div class="col-3">
-                <img id="emerald" src="assets/images/emerald-real_150.png">
+                <img class="crystal" id="emerald" src="assets/images/emerald-real_150.png">
             </div>
             <div class="col-3">
-                <img id="ruby" src="assets/images/ruby-real_150.png">
+                <img class="crystal" id="ruby" src="assets/images/ruby-real_150.png">
             </div>
         </div>
     </div>
+    <footer class="footer">
+            <div class="position-fixed m-0 pt-2" style="background-color:steelblue; bottom:0; width:100vw; height:2.5rem;">
+                <span style="color:white; width:100vw; font-size:12px;" id="mine">
+                  <p style="text-align:center">
+                      &#169;
+                    <script>
+                    document.write(new Date().getFullYear());
+                    </script>, Tim Stevens
+                  <p>
+                </span>
+            </div>
+          </footer>
     <script src="assets/javascript/game.js">
     </script>
 </body>
